@@ -30,7 +30,7 @@ var svg = d3
 	 .style("opacity", 1)
 
 // Import data from the data.csv file, call the function healthData
-  d3.csv("../data/data.csv", function(error, Data) {
+  d3.csv("../assets/data/data.csv", function(error, Data) {
 	if (error) throw error;
 
  // Parse data
